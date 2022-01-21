@@ -57,7 +57,7 @@ func TestSFC(t *testing.T) {
 			require := require.New(t)
 
 			r := env.ApplyBlock(nextEpoch,
-				env.Contract(1, utils.ToFtm(0), sfc110.ContractBin),
+				env.Contract(1, utils.ToFren(0), sfc110.ContractBin),
 			)
 			newImpl := r[0].ContractAddress
 
@@ -100,14 +100,14 @@ func TestSFC(t *testing.T) {
 		t.Run("Create staker 4", func(t *testing.T) {
 			require := require.New(t)
 
-			newStake := utils.ToFtm(genesisStake / 2)
+			newStake := utils.ToFren(genesisStake / 2)
 			minStake, err := sfc11.MinStake(env.ReadOnly())
 			require.NoError(err)
 			require.Greater(newStake.Cmp(minStake), 0,
 				fmt.Sprintf("newStake(%s) < minStake(%s)", newStake, minStake))
 
 			env.ApplyBlock(sameEpoch,
-				env.Transfer(1, 4, big.NewInt(0).Add(newStake, utils.ToFtm(10))),
+				env.Transfer(1, 4, big.NewInt(0).Add(newStake, utils.ToFren(10))),
 			)
 			tx, err := sfc11.CreateStake(env.Payer(4, newStake), nil)
 			require.NoError(err)
@@ -120,9 +120,9 @@ func TestSFC(t *testing.T) {
 		t.Run("Create delegator 5", func(t *testing.T) {
 			require := require.New(t)
 
-			newDelegation := utils.ToFtm(genesisStake / 2)
+			newDelegation := utils.ToFren(genesisStake / 2)
 			env.ApplyBlock(sameEpoch,
-				env.Transfer(1, 5, big.NewInt(0).Add(newDelegation, utils.ToFtm(10))),
+				env.Transfer(1, 5, big.NewInt(0).Add(newDelegation, utils.ToFren(10))),
 			)
 
 			staker, err := sfc11.SfcAddressToStakerID(env.ReadOnly(), env.Address(4))
@@ -156,7 +156,7 @@ func TestSFC(t *testing.T) {
 			require := require.New(t)
 
 			r := env.ApplyBlock(nextEpoch,
-				env.Contract(1, utils.ToFtm(0), sfc202.ContractBin),
+				env.Contract(1, utils.ToFren(0), sfc202.ContractBin),
 			)
 			newImpl := r[0].ContractAddress
 
@@ -454,13 +454,13 @@ func cicleTransfers(t *testing.T, env *testEnv, count uint64) {
 
 	for i := uint64(0); i < count; i++ {
 		env.ApplyBlock(sameEpoch,
-			env.Transfer(1, 2, utils.ToFtm(100)),
+			env.Transfer(1, 2, utils.ToFren(100)),
 		)
 		env.ApplyBlock(sameEpoch,
-			env.Transfer(2, 3, utils.ToFtm(100)),
+			env.Transfer(2, 3, utils.ToFren(100)),
 		)
 		env.ApplyBlock(sameEpoch,
-			env.Transfer(3, 1, utils.ToFtm(100)),
+			env.Transfer(3, 1, utils.ToFren(100)),
 		)
 	}
 

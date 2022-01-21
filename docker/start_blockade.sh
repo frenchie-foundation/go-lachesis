@@ -20,7 +20,7 @@ do
   node$i:
     image: lachesis:latest
     container_name: node$i
-    command: --fakenet=${ACC}/$N --http --http.addr="0.0.0.0" --http.port=18545 --http.corsdomain="*" --http.api="eth,admin,web3,txpool,ftm,sfc" --nousb --metrics
+    command: --fakenet=${ACC}/$N --http --http.addr="0.0.0.0" --http.port=18545 --http.corsdomain="*" --http.api="eth,admin,web3,txpool,fren,sfc" --nousb --metrics
     expose:
       - "55555"
     deploy:

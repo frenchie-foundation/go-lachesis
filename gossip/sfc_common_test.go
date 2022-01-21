@@ -3,15 +3,15 @@ package gossip
 //go:generate mkdir -p solc
 // NOTE: assumed that SFC-repo is in the same dir than lachesis-repo
 // 1.0.0 (genesis)
-//go:generate bash -c "cd ../../fantom-sfc && git checkout 1.0.0 && docker run --rm -v $(pwd):/src -v $(pwd)/../go-lachesis/gossip:/dst ethereum/solc:0.5.12 -o /dst/solc/ --optimize --optimize-runs=2000 --bin --abi --allow-paths /src/contracts --overwrite /src/contracts/upgradeability/UpgradeabilityProxy.sol"
+//go:generate bash -c "cd ../../frenchie-sfc && git checkout 1.0.0 && docker run --rm -v $(pwd):/src -v $(pwd)/../go-lachesis/gossip:/dst ethereum/solc:0.5.12 -o /dst/solc/ --optimize --optimize-runs=2000 --bin --abi --allow-paths /src/contracts --overwrite /src/contracts/upgradeability/UpgradeabilityProxy.sol"
 //go:generate mkdir -p sfcproxy
 //go:generate go run github.com/ethereum/go-ethereum/cmd/abigen --bin=./solc/UpgradeabilityProxy.bin --abi=./solc/UpgradeabilityProxy.abi --pkg=sfcproxy --type=Contract --out=sfcproxy/contract.go
 // 1.1.0-rc1
-//go:generate bash -c "cd ../../fantom-sfc && git checkout 1.1.0-rc1 && docker run --rm -v $(pwd):/src -v $(pwd)/../go-lachesis/gossip:/dst ethereum/solc:0.5.12 -o /dst/solc/ --optimize --optimize-runs=2000 --bin --abi --allow-paths /src/contracts --overwrite /src/contracts/sfc/Staker.sol"
+//go:generate bash -c "cd ../../frenchie-sfc && git checkout 1.1.0-rc1 && docker run --rm -v $(pwd):/src -v $(pwd)/../go-lachesis/gossip:/dst ethereum/solc:0.5.12 -o /dst/solc/ --optimize --optimize-runs=2000 --bin --abi --allow-paths /src/contracts --overwrite /src/contracts/sfc/Staker.sol"
 //go:generate mkdir -p sfc110
 //go:generate go run github.com/ethereum/go-ethereum/cmd/abigen --bin=./solc/Stakers.bin --abi=./solc/Stakers.abi --pkg=sfc110 --type=Contract --out=sfc110/contract.go
 // v2.0.2-rc.4
-//go:generate bash -c "cd ../../fantom-sfc && git checkout release/v2.0.2-rc.4 && docker run --rm -v $(pwd):/src -v $(pwd)/../go-lachesis/gossip:/dst ethereum/solc:0.5.12 -o /dst/solc/ --optimize --optimize-runs=2000 --bin --abi --allow-paths /src/contracts --overwrite /src/contracts/sfc/Staker.sol"
+//go:generate bash -c "cd ../../frenchie-sfc && git checkout release/v2.0.2-rc.4 && docker run --rm -v $(pwd):/src -v $(pwd)/../go-lachesis/gossip:/dst ethereum/solc:0.5.12 -o /dst/solc/ --optimize --optimize-runs=2000 --bin --abi --allow-paths /src/contracts --overwrite /src/contracts/sfc/Staker.sol"
 //go:generate mkdir -p sfc202
 //go:generate go run github.com/ethereum/go-ethereum/cmd/abigen --bin=./solc/Stakers.bin --abi=./solc/Stakers.abi --pkg=sfc202 --type=Contract --out=sfc202/contract.go
 // clean
@@ -77,7 +77,7 @@ type testEnv struct {
 }
 
 func newTestEnv() *testEnv {
-	vaccs := genesis.FakeValidators(genesisStakers, utils.ToFtm(genesisBalance), utils.ToFtm(genesisStake))
+	vaccs := genesis.FakeValidators(genesisStakers, utils.ToFren(genesisBalance), utils.ToFren(genesisStake))
 	cfg := &Config{
 		Net: lachesis.FakeNetConfig(vaccs),
 	}

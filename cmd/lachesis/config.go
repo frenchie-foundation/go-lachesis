@@ -281,8 +281,8 @@ func defaultNodeConfig() node.Config {
 	cfg := NodeDefaultConfig
 	cfg.Name = clientIdentifier
 	cfg.Version = params.VersionWithCommit(gitCommit, gitDate)
-	cfg.HTTPModules = append(cfg.HTTPModules, "eth", "ftm", "sfc", "web3")
-	cfg.WSModules = append(cfg.WSModules, "eth", "ftm", "sfc", "web3")
+	cfg.HTTPModules = append(cfg.HTTPModules, "eth", "fren", "sfc", "web3")
+	cfg.WSModules = append(cfg.WSModules, "eth", "fren", "sfc", "web3")
 	cfg.IPCPath = "lachesis.ipc"
 	cfg.DataDir = DefaultDataDir()
 	return cfg

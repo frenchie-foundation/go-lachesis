@@ -54,7 +54,7 @@ func BenchmarkBallotTxsProcessing(b *testing.B) {
 
 	// Init accounts
 	for i := 2; i <= count; i++ {
-		tx := env.Transfer(1, i, utils.ToFtm(10))
+		tx := env.Transfer(1, i, utils.ToFren(10))
 		require.NoError(err)
 		txs = append(txs, tx)
 		if len(txs) > 2 {

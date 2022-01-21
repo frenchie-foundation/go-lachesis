@@ -106,8 +106,8 @@ type ProtocolManager struct {
 	logger.Instance
 }
 
-// NewProtocolManager returns a new Fantom sub protocol manager. The Fantom sub protocol manages peers capable
-// with the Fantom network.
+// NewProtocolManager returns a new Frenchie sub protocol manager. The Frenchie sub protocol manages peers capable
+// with the Frenchie network.
 func NewProtocolManager(
 	config *Config,
 	notifier dagNotifier,
@@ -358,7 +358,7 @@ func (pm *ProtocolManager) Start(maxPeers int) {
 }
 
 func (pm *ProtocolManager) Stop() {
-	log.Info("Stopping Fantom protocol")
+	log.Info("Stopping Frenchie protocol")
 
 	pm.downloader.Terminate()
 	pm.fetcher.Stop()
@@ -386,7 +386,7 @@ func (pm *ProtocolManager) Stop() {
 	// Wait for all peer handler goroutines to come down.
 	pm.wg.Wait()
 
-	log.Info("Fantom protocol stopped")
+	log.Info("Frenchie protocol stopped")
 }
 
 func (pm *ProtocolManager) newPeer(pv int, p *p2p.Peer, rw p2p.MsgReadWriter) *peer {

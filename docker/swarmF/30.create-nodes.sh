@@ -35,8 +35,8 @@ do
    ${REGISTRY_HOST}/lachesis:${TAG} --nousb \
     --verbosity=3 \
     --fakenet=$ACC/$N \
-    --http --http.addr="0.0.0.0" --http.port=${RPCP} --http.corsdomain="*" --http.api="eth,debug,admin,web3,personal,net,txpool,ftm,sfc" \
-    --ws --ws.addr="0.0.0.0" --ws.port=${WSP} --ws.origins="*" --ws.api="eth,debug,admin,web3,personal,net,txpool,ftm,sfc" \
+    --http --http.addr="0.0.0.0" --http.port=${RPCP} --http.corsdomain="*" --http.api="eth,debug,admin,web3,personal,net,txpool,fren,sfc" \
+    --ws --ws.addr="0.0.0.0" --ws.port=${WSP} --ws.origins="*" --ws.api="eth,debug,admin,web3,personal,net,txpool,fren,sfc" \
     --port=${PORT} --nat="extip:${SWARM_HOST}" \
     --datadir=/var/lachesis \
     ${bootnode}

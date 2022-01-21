@@ -25,7 +25,7 @@ do
     # wait for new epoch
     EPOCH_WAS=$(cat files/was.epoch 2>/dev/null || echo 0)
     while
-        EPOCH_NOW=$(test -e ${DATADIR}/lachesis.ipc && lachesis --datadir=${DATADIR} attach --exec='ftm.currentEpoch()' ${DATADIR}/lachesis.ipc || echo 0) #'
+        EPOCH_NOW=$(test -e ${DATADIR}/lachesis.ipc && lachesis --datadir=${DATADIR} attach --exec='fren.currentEpoch()' ${DATADIR}/lachesis.ipc || echo 0) #'
 	[ ${EPOCH_NOW} -le ${EPOCH_WAS} ]
     do
         sleep 5

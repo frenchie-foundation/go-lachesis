@@ -142,7 +142,7 @@ func DefaultEconomyConfig() EconomyConfig {
 	txRewardPoiImpact := new(big.Int).Mul(big.NewInt(45), PercentUnit)
 	txRewardPoiImpact.Div(txRewardPoiImpact, big.NewInt(100))
 
-	initialRewardPerSecond := new(big.Int).Add(utils.ToFtm(16), big.NewInt(483988584467592592)) // 16.483988584467592592 FTM per sec, or 1424216,6136 FTM per day
+	initialRewardPerSecond := new(big.Int).Add(utils.ToFren(16), big.NewInt(483988584467592592)) // 16.483988584467592592 FREN per sec, or 1424216,6136 FREN per day
 	maxRewardPerSecond := new(big.Int).Mul(initialRewardPerSecond, big.NewInt(2))
 
 	return EconomyConfig{

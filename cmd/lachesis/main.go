@@ -369,11 +369,11 @@ func startNode(ctx *cli.Context, stack *node.Node) {
 	if ctx.GlobalBool(utils.ExitWhenSyncedFlag.Name) {
 		go func() {
 			for first := true; ; first = false {
-				// Call ftm_syncing until it returns false
+				// Call fren_syncing until it returns false
 				time.Sleep(5 * time.Second)
 
 				var syncing bool
-				err := rpcClient.CallContext(context.TODO(), &syncing, "ftm_syncing")
+				err := rpcClient.CallContext(context.TODO(), &syncing, "fren_syncing")
 				if err != nil {
 					continue
 				}

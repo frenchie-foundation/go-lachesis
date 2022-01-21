@@ -112,7 +112,7 @@ func DefaultConfig(network lachesis.Config) Config {
 			MaxPrice:   gasprice.DefaultMaxPrice,
 		},
 		RPCGasCap:    25000000,
-		RPCTxFeeCap:  1000, // 1000 FTM
+		RPCTxFeeCap:  1000, // 1000 FREN
 		RPCLogsBloom: true,
 	}
 

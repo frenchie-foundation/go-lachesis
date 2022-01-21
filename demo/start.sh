@@ -32,7 +32,7 @@ do
 
     ${EXEC} \
 	--fakenet $i/$N \
-	--port ${localport} --http --http.api "eth,ftm,debug,admin,web3,personal,net,txpool" --http.port ${port} --nousb --verbosity 3 \
+	--port ${localport} --http --http.api "eth,fren,debug,admin,web3,personal,net,txpool" --http.port ${port} --nousb --verbosity 3 \
 	--datadir "${LACHESIS_BASE_DIR}/datadir/lach$i" &
     echo -e "Started lachesis client at ${IP}:${port}"
 done
