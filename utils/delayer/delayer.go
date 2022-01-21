@@ -1,9 +1,10 @@
 package delayer
 
 import (
-	"github.com/Fantom-foundation/go-lachesis/logger"
 	"sync"
 	"time"
+
+	"github.com/frenchie-foundation/go-lachesis/logger"
 )
 
 type Delayer struct {

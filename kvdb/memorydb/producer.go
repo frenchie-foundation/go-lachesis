@@ -1,7 +1,7 @@
 package memorydb
 
 import (
-	"github.com/Fantom-foundation/go-lachesis/kvdb"
+	"github.com/frenchie-foundation/go-lachesis/kvdb"
 )
 
 type Mod func(kvdb.KeyValueStore) kvdb.KeyValueStore

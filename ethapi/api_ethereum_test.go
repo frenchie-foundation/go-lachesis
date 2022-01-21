@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/Fantom-foundation/go-lachesis/hash"
+	"github.com/frenchie-foundation/go-lachesis/hash"
 )
 
 // PublicEthereumAPI

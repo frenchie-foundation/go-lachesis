@@ -11,9 +11,9 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/rpc"
 
-	"github.com/Fantom-foundation/go-lachesis/hash"
-	"github.com/Fantom-foundation/go-lachesis/inter"
-	"github.com/Fantom-foundation/go-lachesis/inter/idx"
+	"github.com/frenchie-foundation/go-lachesis/hash"
+	"github.com/frenchie-foundation/go-lachesis/inter"
+	"github.com/frenchie-foundation/go-lachesis/inter/idx"
 )
 
 // PublicDAGChainAPI provides an API to access the directed acyclic graph chain.

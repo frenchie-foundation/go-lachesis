@@ -32,12 +32,12 @@ import (
 	"github.com/ethereum/go-ethereum/params"
 	"github.com/ethereum/go-ethereum/rpc"
 
-	"github.com/Fantom-foundation/go-lachesis/evmcore"
-	"github.com/Fantom-foundation/go-lachesis/hash"
-	"github.com/Fantom-foundation/go-lachesis/inter"
-	"github.com/Fantom-foundation/go-lachesis/inter/idx"
-	"github.com/Fantom-foundation/go-lachesis/inter/pos"
-	"github.com/Fantom-foundation/go-lachesis/inter/sfctype"
+	"github.com/frenchie-foundation/go-lachesis/evmcore"
+	"github.com/frenchie-foundation/go-lachesis/hash"
+	"github.com/frenchie-foundation/go-lachesis/inter"
+	"github.com/frenchie-foundation/go-lachesis/inter/idx"
+	"github.com/frenchie-foundation/go-lachesis/inter/pos"
+	"github.com/frenchie-foundation/go-lachesis/inter/sfctype"
 )
 
 // PeerProgress is synchronization status of a peer

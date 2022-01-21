@@ -8,8 +8,8 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"github.com/Fantom-foundation/go-lachesis/hash"
-	"github.com/Fantom-foundation/go-lachesis/utils/fast"
+	"github.com/frenchie-foundation/go-lachesis/hash"
+	"github.com/frenchie-foundation/go-lachesis/utils/fast"
 )
 
 var (

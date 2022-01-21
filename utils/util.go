@@ -9,8 +9,8 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/Fantom-foundation/go-lachesis/hash"
-	"github.com/Fantom-foundation/go-lachesis/inter/idx"
+	"github.com/frenchie-foundation/go-lachesis/hash"
+	"github.com/frenchie-foundation/go-lachesis/inter/idx"
 )
 
 var startBase uint32 = 12000

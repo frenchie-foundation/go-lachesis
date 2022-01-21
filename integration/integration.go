@@ -6,8 +6,8 @@ import (
 	"github.com/ethereum/go-ethereum/node"
 	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
 
-	"github.com/Fantom-foundation/go-lachesis/gossip"
-	"github.com/Fantom-foundation/go-lachesis/lachesis"
+	"github.com/frenchie-foundation/go-lachesis/gossip"
+	"github.com/frenchie-foundation/go-lachesis/lachesis"
 )
 
 // NewIntegration creates gossip service for the integration test

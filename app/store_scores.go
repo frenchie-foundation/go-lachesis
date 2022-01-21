@@ -3,9 +3,9 @@ package app
 import (
 	"math/big"
 
-	"github.com/Fantom-foundation/go-lachesis/inter"
-	"github.com/Fantom-foundation/go-lachesis/inter/idx"
-	"github.com/Fantom-foundation/go-lachesis/kvdb"
+	"github.com/frenchie-foundation/go-lachesis/inter"
+	"github.com/frenchie-foundation/go-lachesis/inter/idx"
+	"github.com/frenchie-foundation/go-lachesis/kvdb"
 )
 
 // IncBlocksMissed add count of missed blocks for validator

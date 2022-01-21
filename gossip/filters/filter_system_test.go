@@ -32,13 +32,13 @@ import (
 	"github.com/ethereum/go-ethereum/params"
 	"github.com/ethereum/go-ethereum/rpc"
 
-	"github.com/Fantom-foundation/go-lachesis/evmcore"
-	"github.com/Fantom-foundation/go-lachesis/hash"
-	"github.com/Fantom-foundation/go-lachesis/inter/pos"
-	"github.com/Fantom-foundation/go-lachesis/kvdb/memorydb"
-	"github.com/Fantom-foundation/go-lachesis/lachesis"
-	"github.com/Fantom-foundation/go-lachesis/lachesis/genesis"
-	"github.com/Fantom-foundation/go-lachesis/topicsdb"
+	"github.com/frenchie-foundation/go-lachesis/evmcore"
+	"github.com/frenchie-foundation/go-lachesis/hash"
+	"github.com/frenchie-foundation/go-lachesis/inter/pos"
+	"github.com/frenchie-foundation/go-lachesis/kvdb/memorydb"
+	"github.com/frenchie-foundation/go-lachesis/lachesis"
+	"github.com/frenchie-foundation/go-lachesis/lachesis/genesis"
+	"github.com/frenchie-foundation/go-lachesis/topicsdb"
 )
 
 type testBackend struct {

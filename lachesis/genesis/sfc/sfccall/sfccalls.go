@@ -1,12 +1,13 @@
 package sfccall
 
 import (
-	"github.com/Fantom-foundation/go-lachesis/gossip/sfc202"
-	"github.com/Fantom-foundation/go-lachesis/inter/idx"
+	"strings"
+
 	"github.com/Fantom-foundation/go-opera/utils"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
-	"strings"
+	"github.com/frenchie-foundation/go-lachesis/gossip/sfc202"
+	"github.com/frenchie-foundation/go-lachesis/inter/idx"
 )
 
 const ContractABI = sfc202.ContractABI

@@ -1,7 +1,7 @@
 package poset
 
 import (
-	"github.com/Fantom-foundation/go-lachesis/inter/idx"
+	"github.com/frenchie-foundation/go-lachesis/inter/idx"
 )
 
 // SetFrameInfo stores event.

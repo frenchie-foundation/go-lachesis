@@ -3,7 +3,7 @@ package inter
 import (
 	"strings"
 
-	"github.com/Fantom-foundation/go-lachesis/hash"
+	"github.com/frenchie-foundation/go-lachesis/hash"
 )
 
 // Events is a ordered slice of events.

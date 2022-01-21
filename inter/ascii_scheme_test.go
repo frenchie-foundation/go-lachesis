@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/Fantom-foundation/go-lachesis/utils"
+	"github.com/frenchie-foundation/go-lachesis/utils"
 )
 
 func TestASCIIschemeToDAG(t *testing.T) {

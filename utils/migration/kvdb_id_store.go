@@ -3,7 +3,7 @@ package migration
 import (
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/Fantom-foundation/go-lachesis/kvdb"
+	"github.com/frenchie-foundation/go-lachesis/kvdb"
 )
 
 // KvdbIDStore stores id

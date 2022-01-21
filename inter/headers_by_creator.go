@@ -7,7 +7,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"github.com/Fantom-foundation/go-lachesis/inter/idx"
+	"github.com/frenchie-foundation/go-lachesis/inter/idx"
 )
 
 type (

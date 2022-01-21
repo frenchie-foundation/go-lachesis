@@ -6,7 +6,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/Fantom-foundation/go-lachesis/kvdb/memorydb"
+	"github.com/frenchie-foundation/go-lachesis/kvdb/memorydb"
 )
 
 func BenchmarkSearch(b *testing.B) {

@@ -9,9 +9,9 @@ import (
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/Fantom-foundation/go-lachesis/hash"
-	"github.com/Fantom-foundation/go-lachesis/inter/idx"
-	"github.com/Fantom-foundation/go-lachesis/utils/fast"
+	"github.com/frenchie-foundation/go-lachesis/hash"
+	"github.com/frenchie-foundation/go-lachesis/inter/idx"
+	"github.com/frenchie-foundation/go-lachesis/utils/fast"
 )
 
 func TestEventHeaderDataSerialization(t *testing.T) {

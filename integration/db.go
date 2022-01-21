@@ -1,9 +1,9 @@
 package integration
 
 import (
-	"github.com/Fantom-foundation/go-lachesis/kvdb"
-	"github.com/Fantom-foundation/go-lachesis/kvdb/leveldb"
-	"github.com/Fantom-foundation/go-lachesis/kvdb/memorydb"
+	"github.com/frenchie-foundation/go-lachesis/kvdb"
+	"github.com/frenchie-foundation/go-lachesis/kvdb/leveldb"
+	"github.com/frenchie-foundation/go-lachesis/kvdb/memorydb"
 )
 
 func DBProducer(dbdir string) kvdb.DbProducer {

@@ -5,10 +5,10 @@ import (
 
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"github.com/Fantom-foundation/go-lachesis/gossip"
-	"github.com/Fantom-foundation/go-lachesis/inter/idx"
-	"github.com/Fantom-foundation/go-lachesis/kvdb"
-	"github.com/Fantom-foundation/go-lachesis/kvdb/table"
+	"github.com/frenchie-foundation/go-lachesis/gossip"
+	"github.com/frenchie-foundation/go-lachesis/inter/idx"
+	"github.com/frenchie-foundation/go-lachesis/kvdb"
+	"github.com/frenchie-foundation/go-lachesis/kvdb/table"
 )
 
 func checkPacks(db kvdb.KeyValueStore) {

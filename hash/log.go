@@ -3,7 +3,7 @@ package hash
 import (
 	"sync"
 
-	"github.com/Fantom-foundation/go-lachesis/inter/idx"
+	"github.com/frenchie-foundation/go-lachesis/inter/idx"
 )
 
 var (

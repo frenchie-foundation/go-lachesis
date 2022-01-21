@@ -21,13 +21,13 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Fantom-foundation/go-lachesis/evmcore"
-	"github.com/Fantom-foundation/go-lachesis/hash"
-	"github.com/Fantom-foundation/go-lachesis/inter"
-	"github.com/Fantom-foundation/go-lachesis/inter/idx"
-	"github.com/Fantom-foundation/go-lachesis/inter/sfctype"
-	"github.com/Fantom-foundation/go-lachesis/kvdb/nokeyiserr"
-	"github.com/Fantom-foundation/go-lachesis/kvdb/table"
+	"github.com/frenchie-foundation/go-lachesis/evmcore"
+	"github.com/frenchie-foundation/go-lachesis/hash"
+	"github.com/frenchie-foundation/go-lachesis/inter"
+	"github.com/frenchie-foundation/go-lachesis/inter/idx"
+	"github.com/frenchie-foundation/go-lachesis/inter/sfctype"
+	"github.com/frenchie-foundation/go-lachesis/kvdb/nokeyiserr"
+	"github.com/frenchie-foundation/go-lachesis/kvdb/table"
 )
 
 const (

@@ -12,10 +12,10 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Fantom-foundation/go-lachesis/gossip/ballot"
-	"github.com/Fantom-foundation/go-lachesis/hash"
-	"github.com/Fantom-foundation/go-lachesis/logger"
-	"github.com/Fantom-foundation/go-lachesis/utils"
+	"github.com/frenchie-foundation/go-lachesis/gossip/ballot"
+	"github.com/frenchie-foundation/go-lachesis/hash"
+	"github.com/frenchie-foundation/go-lachesis/logger"
+	"github.com/frenchie-foundation/go-lachesis/utils"
 )
 
 func BenchmarkBallotTxsProcessing(b *testing.B) {

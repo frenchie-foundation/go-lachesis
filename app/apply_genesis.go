@@ -3,9 +3,9 @@ package app
 import (
 	"math/big"
 
-	"github.com/Fantom-foundation/go-lachesis/evmcore"
-	"github.com/Fantom-foundation/go-lachesis/inter/sfctype"
-	"github.com/Fantom-foundation/go-lachesis/lachesis"
+	"github.com/frenchie-foundation/go-lachesis/evmcore"
+	"github.com/frenchie-foundation/go-lachesis/inter/sfctype"
+	"github.com/frenchie-foundation/go-lachesis/lachesis"
 )
 
 // ApplyGenesis writes initial state.

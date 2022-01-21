@@ -3,8 +3,8 @@ package app
 import (
 	"time"
 
-	"github.com/Fantom-foundation/go-lachesis/kvdb"
-	"github.com/Fantom-foundation/go-lachesis/kvdb/memorydb"
+	"github.com/frenchie-foundation/go-lachesis/kvdb"
+	"github.com/frenchie-foundation/go-lachesis/kvdb/memorydb"
 )
 
 func cachedStore() *Store {

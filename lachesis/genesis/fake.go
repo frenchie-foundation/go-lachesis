@@ -3,9 +3,9 @@ package genesis
 import (
 	"math/big"
 
-	"github.com/Fantom-foundation/go-lachesis/crypto"
-	"github.com/Fantom-foundation/go-lachesis/inter/idx"
-	"github.com/Fantom-foundation/go-lachesis/inter/pos"
+	"github.com/frenchie-foundation/go-lachesis/crypto"
+	"github.com/frenchie-foundation/go-lachesis/inter/idx"
+	"github.com/frenchie-foundation/go-lachesis/inter/pos"
 )
 
 // FakeValidators returns validators accounts for fakenet

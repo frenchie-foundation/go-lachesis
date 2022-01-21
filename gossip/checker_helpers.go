@@ -6,11 +6,11 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/Fantom-foundation/go-lachesis/app"
-	"github.com/Fantom-foundation/go-lachesis/eventcheck/gaspowercheck"
-	"github.com/Fantom-foundation/go-lachesis/inter/idx"
-	"github.com/Fantom-foundation/go-lachesis/inter/pos"
-	"github.com/Fantom-foundation/go-lachesis/lachesis"
+	"github.com/frenchie-foundation/go-lachesis/app"
+	"github.com/frenchie-foundation/go-lachesis/eventcheck/gaspowercheck"
+	"github.com/frenchie-foundation/go-lachesis/inter/idx"
+	"github.com/frenchie-foundation/go-lachesis/inter/pos"
+	"github.com/frenchie-foundation/go-lachesis/lachesis"
 )
 
 // GasPowerCheckReader is a helper to run gas power check

@@ -5,7 +5,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/Fantom-foundation/go-lachesis/hash"
+	"github.com/frenchie-foundation/go-lachesis/hash"
 )
 
 // DebugStateHash may be used in tests to match election state

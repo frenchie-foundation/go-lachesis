@@ -22,7 +22,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/Fantom-foundation/go-lachesis/evmcore"
+	"github.com/frenchie-foundation/go-lachesis/evmcore"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"

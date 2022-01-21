@@ -5,9 +5,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/Fantom-foundation/go-lachesis/common/bigendian"
-	"github.com/Fantom-foundation/go-lachesis/inter"
-	"github.com/Fantom-foundation/go-lachesis/inter/idx"
+	"github.com/frenchie-foundation/go-lachesis/common/bigendian"
+	"github.com/frenchie-foundation/go-lachesis/inter"
+	"github.com/frenchie-foundation/go-lachesis/inter/idx"
 )
 
 // GetAddressFee get gas used by address

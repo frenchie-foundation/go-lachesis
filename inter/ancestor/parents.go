@@ -5,10 +5,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/Fantom-foundation/go-lachesis/hash"
-	"github.com/Fantom-foundation/go-lachesis/inter/idx"
-	"github.com/Fantom-foundation/go-lachesis/inter/pos"
-	"github.com/Fantom-foundation/go-lachesis/vector"
+	"github.com/frenchie-foundation/go-lachesis/hash"
+	"github.com/frenchie-foundation/go-lachesis/inter/idx"
+	"github.com/frenchie-foundation/go-lachesis/inter/pos"
+	"github.com/frenchie-foundation/go-lachesis/vector"
 )
 
 // SearchStrategy defines a criteria used to estimate the "best" subset of parents to emit event with.

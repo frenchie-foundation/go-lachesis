@@ -1,9 +1,9 @@
 package vector
 
 import (
-	"github.com/Fantom-foundation/go-lachesis/hash"
-	"github.com/Fantom-foundation/go-lachesis/inter/idx"
-	"github.com/Fantom-foundation/go-lachesis/kvdb"
+	"github.com/frenchie-foundation/go-lachesis/hash"
+	"github.com/frenchie-foundation/go-lachesis/inter/idx"
+	"github.com/frenchie-foundation/go-lachesis/kvdb"
 )
 
 func (vi *Index) getBytes(table kvdb.KeyValueStore, id hash.Event) []byte {

@@ -31,8 +31,8 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/params"
 
-	"github.com/Fantom-foundation/go-lachesis/kvdb/table"
-	"github.com/Fantom-foundation/go-lachesis/topicsdb"
+	"github.com/frenchie-foundation/go-lachesis/kvdb/table"
+	"github.com/frenchie-foundation/go-lachesis/topicsdb"
 )
 
 func makeReceipt(addr common.Address) *types.Receipt {

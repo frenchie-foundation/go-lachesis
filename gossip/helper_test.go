@@ -12,12 +12,12 @@ import (
 	"github.com/ethereum/go-ethereum/p2p"
 	"github.com/ethereum/go-ethereum/p2p/enode"
 
-	"github.com/Fantom-foundation/go-lachesis/hash"
-	"github.com/Fantom-foundation/go-lachesis/inter"
-	"github.com/Fantom-foundation/go-lachesis/inter/pos"
-	"github.com/Fantom-foundation/go-lachesis/lachesis"
-	"github.com/Fantom-foundation/go-lachesis/lachesis/genesis"
-	"github.com/Fantom-foundation/go-lachesis/poset"
+	"github.com/frenchie-foundation/go-lachesis/hash"
+	"github.com/frenchie-foundation/go-lachesis/inter"
+	"github.com/frenchie-foundation/go-lachesis/inter/pos"
+	"github.com/frenchie-foundation/go-lachesis/lachesis"
+	"github.com/frenchie-foundation/go-lachesis/lachesis/genesis"
+	"github.com/frenchie-foundation/go-lachesis/poset"
 )
 
 // newTestProtocolManager creates a new protocol manager for testing purposes,

@@ -3,7 +3,7 @@ package inter
 import (
 	"testing"
 
-	"github.com/Fantom-foundation/go-lachesis/hash"
+	"github.com/frenchie-foundation/go-lachesis/hash"
 )
 
 func TestEventsByParents(t *testing.T) {

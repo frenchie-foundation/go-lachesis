@@ -13,8 +13,8 @@ import (
 	"github.com/ethereum/go-ethereum/trie"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/Fantom-foundation/go-lachesis/hash"
-	"github.com/Fantom-foundation/go-lachesis/inter/idx"
+	"github.com/frenchie-foundation/go-lachesis/hash"
+	"github.com/frenchie-foundation/go-lachesis/inter/idx"
 )
 
 var (

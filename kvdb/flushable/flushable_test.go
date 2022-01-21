@@ -13,10 +13,10 @@ import (
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/Fantom-foundation/go-lachesis/kvdb"
-	"github.com/Fantom-foundation/go-lachesis/kvdb/leveldb"
-	"github.com/Fantom-foundation/go-lachesis/kvdb/memorydb"
-	"github.com/Fantom-foundation/go-lachesis/kvdb/table"
+	"github.com/frenchie-foundation/go-lachesis/kvdb"
+	"github.com/frenchie-foundation/go-lachesis/kvdb/leveldb"
+	"github.com/frenchie-foundation/go-lachesis/kvdb/memorydb"
+	"github.com/frenchie-foundation/go-lachesis/kvdb/table"
 )
 
 func TestFlushable(t *testing.T) {

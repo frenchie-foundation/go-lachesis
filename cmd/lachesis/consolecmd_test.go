@@ -13,7 +13,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/params"
 
-	"github.com/Fantom-foundation/go-lachesis/lachesis/genesis"
+	"github.com/frenchie-foundation/go-lachesis/lachesis/genesis"
 )
 
 const (

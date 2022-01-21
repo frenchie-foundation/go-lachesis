@@ -11,11 +11,11 @@ import (
 	"github.com/ethereum/go-ethereum/rlp"
 	lru "github.com/hashicorp/golang-lru"
 
-	"github.com/Fantom-foundation/go-lachesis/kvdb"
-	"github.com/Fantom-foundation/go-lachesis/kvdb/nokeyiserr"
-	"github.com/Fantom-foundation/go-lachesis/kvdb/table"
-	"github.com/Fantom-foundation/go-lachesis/logger"
-	"github.com/Fantom-foundation/go-lachesis/topicsdb"
+	"github.com/frenchie-foundation/go-lachesis/kvdb"
+	"github.com/frenchie-foundation/go-lachesis/kvdb/nokeyiserr"
+	"github.com/frenchie-foundation/go-lachesis/kvdb/table"
+	"github.com/frenchie-foundation/go-lachesis/logger"
+	"github.com/frenchie-foundation/go-lachesis/topicsdb"
 )
 
 // Store is a node persistent storage working over physical key-value database.

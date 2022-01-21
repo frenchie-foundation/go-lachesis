@@ -9,14 +9,14 @@ import (
 	eth "github.com/ethereum/go-ethereum/core/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Fantom-foundation/go-lachesis/gossip/sfc110"
-	"github.com/Fantom-foundation/go-lachesis/gossip/sfc202"
-	"github.com/Fantom-foundation/go-lachesis/gossip/sfcproxy"
-	"github.com/Fantom-foundation/go-lachesis/inter/idx"
-	"github.com/Fantom-foundation/go-lachesis/lachesis/genesis/sfc"
-	"github.com/Fantom-foundation/go-lachesis/lachesis/genesis/sfc/sfcpos"
-	"github.com/Fantom-foundation/go-lachesis/logger"
-	"github.com/Fantom-foundation/go-lachesis/utils"
+	"github.com/frenchie-foundation/go-lachesis/gossip/sfc110"
+	"github.com/frenchie-foundation/go-lachesis/gossip/sfc202"
+	"github.com/frenchie-foundation/go-lachesis/gossip/sfcproxy"
+	"github.com/frenchie-foundation/go-lachesis/inter/idx"
+	"github.com/frenchie-foundation/go-lachesis/lachesis/genesis/sfc"
+	"github.com/frenchie-foundation/go-lachesis/lachesis/genesis/sfc/sfcpos"
+	"github.com/frenchie-foundation/go-lachesis/logger"
+	"github.com/frenchie-foundation/go-lachesis/utils"
 )
 
 type commonSfc interface {

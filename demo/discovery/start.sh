@@ -12,7 +12,7 @@ LIMIT_CPU=$(echo "scale=2; 1/$N" | bc)
 LIMIT_IO=$(echo "500/$N" | bc)
 
 
-FVM=${GOPATH}/src/github.com/Fantom-foundation/go-ethereum
+FVM=${GOPATH}/src/github.com/frenchie-foundation/go-ethereum
 BOOTNODE=${FVM}/build/bin/bootnode
 
 echo "Generate bootnode.key"

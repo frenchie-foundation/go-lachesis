@@ -7,8 +7,8 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	_params "github.com/ethereum/go-ethereum/params"
 
-	"github.com/Fantom-foundation/go-lachesis/inter/idx"
-	"github.com/Fantom-foundation/go-lachesis/lachesis/params"
+	"github.com/frenchie-foundation/go-lachesis/inter/idx"
+	"github.com/frenchie-foundation/go-lachesis/lachesis/params"
 )
 
 // EmitIntervals is the configuration of emit intervals.

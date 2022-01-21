@@ -3,8 +3,8 @@ package election
 import (
 	"fmt"
 
-	"github.com/Fantom-foundation/go-lachesis/hash"
-	"github.com/Fantom-foundation/go-lachesis/inter/idx"
+	"github.com/frenchie-foundation/go-lachesis/hash"
+	"github.com/frenchie-foundation/go-lachesis/inter/idx"
 )
 
 // ProcessRoot calculates Atropos votes only for the new root.

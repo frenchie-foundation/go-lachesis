@@ -1,1 +1,1 @@
-The development has **moved to a [new repository](https://github.com/Fantom-foundation/go-opera)**.
+The development has **moved to a [new repository](https://github.com/frenchie-foundation/go-opera)**.

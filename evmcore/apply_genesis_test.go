@@ -23,13 +23,13 @@ import (
 	"github.com/ethereum/go-ethereum/core/rawdb"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/Fantom-foundation/go-lachesis/inter/pos"
-	"github.com/Fantom-foundation/go-lachesis/kvdb/memorydb"
-	"github.com/Fantom-foundation/go-lachesis/kvdb/nokeyiserr"
-	"github.com/Fantom-foundation/go-lachesis/kvdb/table"
-	"github.com/Fantom-foundation/go-lachesis/lachesis"
-	"github.com/Fantom-foundation/go-lachesis/lachesis/genesis"
-	"github.com/Fantom-foundation/go-lachesis/logger"
+	"github.com/frenchie-foundation/go-lachesis/inter/pos"
+	"github.com/frenchie-foundation/go-lachesis/kvdb/memorydb"
+	"github.com/frenchie-foundation/go-lachesis/kvdb/nokeyiserr"
+	"github.com/frenchie-foundation/go-lachesis/kvdb/table"
+	"github.com/frenchie-foundation/go-lachesis/lachesis"
+	"github.com/frenchie-foundation/go-lachesis/lachesis/genesis"
+	"github.com/frenchie-foundation/go-lachesis/logger"
 )
 
 func TestApplyGenesis(t *testing.T) {

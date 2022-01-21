@@ -1,12 +1,12 @@
 package eventcheck
 
 import (
-	"github.com/Fantom-foundation/go-lachesis/eventcheck/basiccheck"
-	"github.com/Fantom-foundation/go-lachesis/eventcheck/epochcheck"
-	"github.com/Fantom-foundation/go-lachesis/eventcheck/gaspowercheck"
-	"github.com/Fantom-foundation/go-lachesis/eventcheck/heavycheck"
-	"github.com/Fantom-foundation/go-lachesis/eventcheck/parentscheck"
-	"github.com/Fantom-foundation/go-lachesis/inter"
+	"github.com/frenchie-foundation/go-lachesis/eventcheck/basiccheck"
+	"github.com/frenchie-foundation/go-lachesis/eventcheck/epochcheck"
+	"github.com/frenchie-foundation/go-lachesis/eventcheck/gaspowercheck"
+	"github.com/frenchie-foundation/go-lachesis/eventcheck/heavycheck"
+	"github.com/frenchie-foundation/go-lachesis/eventcheck/parentscheck"
+	"github.com/frenchie-foundation/go-lachesis/inter"
 )
 
 // Checkers is collection of all the checkers

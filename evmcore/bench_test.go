@@ -31,8 +31,8 @@ import (
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/ethereum/go-ethereum/params"
 
-	"github.com/Fantom-foundation/go-lachesis/lachesis"
-	"github.com/Fantom-foundation/go-lachesis/lachesis/genesis"
+	"github.com/frenchie-foundation/go-lachesis/lachesis"
+	"github.com/frenchie-foundation/go-lachesis/lachesis/genesis"
 )
 
 func BenchmarkInsertChain_empty_memdb(b *testing.B) {

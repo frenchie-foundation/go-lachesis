@@ -24,7 +24,7 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/trie"
 
-	"github.com/Fantom-foundation/go-lachesis/inter"
+	"github.com/frenchie-foundation/go-lachesis/inter"
 )
 
 type (

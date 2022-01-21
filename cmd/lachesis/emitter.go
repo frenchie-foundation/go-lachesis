@@ -4,8 +4,8 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/Fantom-foundation/go-lachesis/crypto"
-	"github.com/Fantom-foundation/go-lachesis/gossip"
+	"github.com/frenchie-foundation/go-lachesis/crypto"
+	"github.com/frenchie-foundation/go-lachesis/gossip"
 )
 
 var validatorFlag = cli.StringFlag{

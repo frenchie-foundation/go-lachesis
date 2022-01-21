@@ -6,7 +6,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/ethdb"
 
-	"github.com/Fantom-foundation/go-lachesis/kvdb"
+	"github.com/frenchie-foundation/go-lachesis/kvdb"
 )
 
 var (

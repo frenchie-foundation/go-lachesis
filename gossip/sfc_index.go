@@ -10,16 +10,16 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/Fantom-foundation/go-lachesis/app"
-	"github.com/Fantom-foundation/go-lachesis/inter"
-	"github.com/Fantom-foundation/go-lachesis/inter/idx"
-	"github.com/Fantom-foundation/go-lachesis/inter/sfctype"
-	"github.com/Fantom-foundation/go-lachesis/lachesis"
-	"github.com/Fantom-foundation/go-lachesis/lachesis/genesis/sfc"
-	"github.com/Fantom-foundation/go-lachesis/lachesis/genesis/sfc/sfcpos"
-	"github.com/Fantom-foundation/go-lachesis/utils"
-	"github.com/Fantom-foundation/go-lachesis/utils/errlock"
-	"github.com/Fantom-foundation/go-lachesis/version"
+	"github.com/frenchie-foundation/go-lachesis/app"
+	"github.com/frenchie-foundation/go-lachesis/inter"
+	"github.com/frenchie-foundation/go-lachesis/inter/idx"
+	"github.com/frenchie-foundation/go-lachesis/inter/sfctype"
+	"github.com/frenchie-foundation/go-lachesis/lachesis"
+	"github.com/frenchie-foundation/go-lachesis/lachesis/genesis/sfc"
+	"github.com/frenchie-foundation/go-lachesis/lachesis/genesis/sfc/sfcpos"
+	"github.com/frenchie-foundation/go-lachesis/utils"
+	"github.com/frenchie-foundation/go-lachesis/utils/errlock"
+	"github.com/frenchie-foundation/go-lachesis/version"
 )
 
 // GetActiveSfcStakers returns stakers which will become validators in next epoch

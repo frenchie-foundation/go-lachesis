@@ -5,7 +5,7 @@ import (
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"github.com/Fantom-foundation/go-lachesis/inter/sfctype"
+	"github.com/frenchie-foundation/go-lachesis/inter/sfctype"
 )
 
 // SetSfcDelegation stores SfcDelegation

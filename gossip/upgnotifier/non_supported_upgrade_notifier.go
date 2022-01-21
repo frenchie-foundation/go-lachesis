@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Fantom-foundation/go-lachesis/logger"
-	"github.com/Fantom-foundation/go-lachesis/version"
+	"github.com/frenchie-foundation/go-lachesis/logger"
+	"github.com/frenchie-foundation/go-lachesis/version"
 )
 
 type Reader interface {

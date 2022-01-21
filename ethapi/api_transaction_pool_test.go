@@ -13,7 +13,7 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Fantom-foundation/go-lachesis/evmcore"
+	"github.com/frenchie-foundation/go-lachesis/evmcore"
 )
 
 // PublicTransactionPoolAPI

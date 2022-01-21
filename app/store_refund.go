@@ -1,8 +1,8 @@
 package app
 
 import (
-	"github.com/Fantom-foundation/go-lachesis/common/bigendian"
-	"github.com/Fantom-foundation/go-lachesis/inter/idx"
+	"github.com/frenchie-foundation/go-lachesis/common/bigendian"
+	"github.com/frenchie-foundation/go-lachesis/inter/idx"
 )
 
 // SetGasPowerRefund stores amount of gas power to refund

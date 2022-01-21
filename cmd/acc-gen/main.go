@@ -12,9 +12,9 @@ import (
 	"github.com/ethereum/go-ethereum/params"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/Fantom-foundation/go-lachesis/flags"
-	"github.com/Fantom-foundation/go-lachesis/lachesis/genesis"
-	_ "github.com/Fantom-foundation/go-lachesis/version"
+	"github.com/frenchie-foundation/go-lachesis/flags"
+	"github.com/frenchie-foundation/go-lachesis/lachesis/genesis"
+	_ "github.com/frenchie-foundation/go-lachesis/version"
 )
 
 var (

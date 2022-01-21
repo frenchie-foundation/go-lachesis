@@ -4,7 +4,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Fantom-foundation/go-lachesis/kvdb/leveldb"
+	"github.com/frenchie-foundation/go-lachesis/kvdb/leveldb"
 )
 
 func main() {

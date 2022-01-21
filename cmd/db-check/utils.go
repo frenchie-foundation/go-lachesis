@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/Fantom-foundation/go-lachesis/kvdb"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/frenchie-foundation/go-lachesis/kvdb"
 )
 
 // set RLP value

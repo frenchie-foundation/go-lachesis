@@ -1,8 +1,8 @@
 package vector
 
 import (
-	"github.com/Fantom-foundation/go-lachesis/inter/idx"
-	"github.com/Fantom-foundation/go-lachesis/inter/pos"
+	"github.com/frenchie-foundation/go-lachesis/inter/idx"
+	"github.com/frenchie-foundation/go-lachesis/inter/pos"
 )
 
 // branchesInfo contains information about global branches of each validator

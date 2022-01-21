@@ -6,12 +6,12 @@ import (
 
 	ethparams "github.com/ethereum/go-ethereum/params"
 
-	"github.com/Fantom-foundation/go-lachesis/inter"
-	"github.com/Fantom-foundation/go-lachesis/inter/idx"
-	"github.com/Fantom-foundation/go-lachesis/lachesis/genesis"
-	"github.com/Fantom-foundation/go-lachesis/lachesis/params"
-	"github.com/Fantom-foundation/go-lachesis/utils"
-	"github.com/Fantom-foundation/go-lachesis/vector"
+	"github.com/frenchie-foundation/go-lachesis/inter"
+	"github.com/frenchie-foundation/go-lachesis/inter/idx"
+	"github.com/frenchie-foundation/go-lachesis/lachesis/genesis"
+	"github.com/frenchie-foundation/go-lachesis/lachesis/params"
+	"github.com/frenchie-foundation/go-lachesis/utils"
+	"github.com/frenchie-foundation/go-lachesis/vector"
 )
 
 const (

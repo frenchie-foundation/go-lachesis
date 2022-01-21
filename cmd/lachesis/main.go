@@ -3,12 +3,13 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/Fantom-foundation/go-lachesis/utils/delayer"
 	"os"
 	godebug "runtime/debug"
 	"sort"
 	"strings"
 	"time"
+
+	"github.com/frenchie-foundation/go-lachesis/utils/delayer"
 
 	"github.com/ethereum/go-ethereum/accounts"
 	"github.com/ethereum/go-ethereum/accounts/keystore"
@@ -20,14 +21,14 @@ import (
 	"github.com/ethereum/go-ethereum/params"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/Fantom-foundation/go-lachesis/cmd/lachesis/metrics"
-	"github.com/Fantom-foundation/go-lachesis/cmd/lachesis/tracing"
-	"github.com/Fantom-foundation/go-lachesis/debug"
-	"github.com/Fantom-foundation/go-lachesis/flags"
-	"github.com/Fantom-foundation/go-lachesis/gossip"
-	"github.com/Fantom-foundation/go-lachesis/integration"
-	"github.com/Fantom-foundation/go-lachesis/utils/errlock"
-	_ "github.com/Fantom-foundation/go-lachesis/version"
+	"github.com/frenchie-foundation/go-lachesis/cmd/lachesis/metrics"
+	"github.com/frenchie-foundation/go-lachesis/cmd/lachesis/tracing"
+	"github.com/frenchie-foundation/go-lachesis/debug"
+	"github.com/frenchie-foundation/go-lachesis/flags"
+	"github.com/frenchie-foundation/go-lachesis/gossip"
+	"github.com/frenchie-foundation/go-lachesis/integration"
+	"github.com/frenchie-foundation/go-lachesis/utils/errlock"
+	_ "github.com/frenchie-foundation/go-lachesis/version"
 )
 
 const (

@@ -12,7 +12,7 @@ import (
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/ethereum/go-ethereum/trie"
 
-	"github.com/Fantom-foundation/go-lachesis/inter/pos"
+	"github.com/frenchie-foundation/go-lachesis/inter/pos"
 )
 
 // Accounts specifies the initial state that is part of the genesis block.

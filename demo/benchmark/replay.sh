@@ -27,7 +27,7 @@ mkdir ${LACHESIS_BASE_DIR}
 declare -a pids
 
 # Set up plg tool
-cp ${GOPATH}/src/github.com/Fantom-foundation/tun-replay/build/plg .
+cp ${GOPATH}/src/github.com/frenchie-foundation/tun-replay/build/plg .
 PLG=./plg
 #echo "PLG=${PLG}"
 

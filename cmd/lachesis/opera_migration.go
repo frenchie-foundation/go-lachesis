@@ -20,11 +20,11 @@ import (
 	"github.com/ethereum/go-ethereum/metrics"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/Fantom-foundation/go-lachesis/gossip"
-	"github.com/Fantom-foundation/go-lachesis/inter/idx"
-	"github.com/Fantom-foundation/go-lachesis/kvdb/leveldb"
-	"github.com/Fantom-foundation/go-lachesis/poset"
-	"github.com/Fantom-foundation/go-lachesis/utils/iocopy"
+	"github.com/frenchie-foundation/go-lachesis/gossip"
+	"github.com/frenchie-foundation/go-lachesis/inter/idx"
+	"github.com/frenchie-foundation/go-lachesis/kvdb/leveldb"
+	"github.com/frenchie-foundation/go-lachesis/poset"
+	"github.com/frenchie-foundation/go-lachesis/utils/iocopy"
 )
 
 type OperaMigration struct {

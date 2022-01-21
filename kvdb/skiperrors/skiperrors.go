@@ -3,7 +3,7 @@ package skiperrors
 import (
 	"github.com/ethereum/go-ethereum/ethdb"
 
-	"github.com/Fantom-foundation/go-lachesis/kvdb"
+	"github.com/frenchie-foundation/go-lachesis/kvdb"
 )
 
 // wrapper is a kvdb.KeyValueStore wrapper around any kvdb.KeyValueStore.

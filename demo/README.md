@@ -22,7 +22,7 @@ Tx-generators are used to generate simple account balance transactions for the n
 
 # Installation
 
-[Build lachesis from source](https://github.com/Fantom-foundation/go-lachesis#building-the-source)
+[Build lachesis from source](https://github.com/frenchie-foundation/go-lachesis#building-the-source)
 
 Run `go build -o ./build/tx-storm ./cmd/tx-storm`
 

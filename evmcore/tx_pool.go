@@ -33,7 +33,7 @@ import (
 	"github.com/ethereum/go-ethereum/metrics"
 	"github.com/ethereum/go-ethereum/params"
 
-	lachesisparams "github.com/Fantom-foundation/go-lachesis/lachesis/params"
+	lachesisparams "github.com/frenchie-foundation/go-lachesis/lachesis/params"
 )
 
 const (

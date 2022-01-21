@@ -1,4 +1,4 @@
-module github.com/Fantom-foundation/go-lachesis
+module github.com/frenchie-foundation/go-lachesis
 
 go 1.13
 
@@ -38,4 +38,8 @@ require (
 
 replace gopkg.in/urfave/cli.v1 => github.com/urfave/cli v1.20.0
 
-replace github.com/ethereum/go-ethereum => github.com/Fantom-foundation/go-ethereum v1.9.22-ftm-0.5
+replace github.com/ethereum/go-ethereum => github.com/frenchie-foundation/go-ethereum v1.9.22-ftm-0.5
+
+replace github.com/Fantom-foundation/lachesis-base => github.com/frenchie-foundation/lachesis-base v0.0.0-20210323130105-a8e5ca7f15ac
+
+replace github.com/Fantom-foundation/go-opera => github.com/frenchie-foundation/go-opera v0.0.0-20210329030859-db15cedd849d

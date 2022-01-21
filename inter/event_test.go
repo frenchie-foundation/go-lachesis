@@ -7,7 +7,7 @@ import (
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/Fantom-foundation/go-lachesis/hash"
+	"github.com/frenchie-foundation/go-lachesis/hash"
 )
 
 func TestEventSerialization(t *testing.T) {

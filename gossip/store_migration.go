@@ -3,7 +3,7 @@ package gossip
 import (
 	"github.com/ethereum/go-ethereum/ethdb"
 
-	"github.com/Fantom-foundation/go-lachesis/utils/migration"
+	"github.com/frenchie-foundation/go-lachesis/utils/migration"
 )
 
 func isEmptyDB(db ethdb.Iteratee) bool {

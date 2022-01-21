@@ -10,7 +10,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/params"
 
-	"github.com/Fantom-foundation/go-lachesis/crypto"
+	"github.com/frenchie-foundation/go-lachesis/crypto"
 )
 
 func TestFakeNetFlag_NonValidator(t *testing.T) {
