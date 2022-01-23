@@ -14,9 +14,10 @@ import (
 	"github.com/frenchie-foundation/go-lachesis/vector"
 )
 
+// it is recommended to change IDs later
 const (
-	MainNetworkID uint64 = 0xfa
-	TestNetworkID uint64 = 0xfa2
+	MainNetworkID uint64 = 0x1B39
+	TestNetworkID uint64 = 0x1B40
 	FakeNetworkID uint64 = 0xfa3
 )
 
